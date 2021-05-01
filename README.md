@@ -129,7 +129,7 @@ In 1-2 sentences, explain what kind of data each beat collects, and provide 1 ex
  - Filebeat monitors file logs, collects log events, and forwards them for indexing. Example: auditd module collects and parses logs from the audit daemon.
 
  - Metricbeat records metrics and statistics from an operating system and services running on the server. Example: MongoDB module periodically fetches metrics from MongoDB servers. 
- - 
+ 
 
 ### Using the Playbook
 
