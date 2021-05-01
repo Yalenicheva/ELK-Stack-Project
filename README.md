@@ -110,7 +110,7 @@ https://github.com/Yalenicheva/ELK-Stack-Project/blob/main/Images/docker_ps_outp
 
 This ELK server is configured to monitor the following machines:
 
--  List the IP addresses of the machines you are monitoring
+List the IP addresses of the machines you are monitoring
 
 - 10.0.0.9
 - 10.0.0.10
