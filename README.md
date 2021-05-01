@@ -42,5 +42,14 @@ Filebeat monitors file logs, collects log events, and forwards them for indexing
 
 Metricbeat records metrics and statistics from an operating system and services running on a server. 
 
+The configuration details of each machine may be found below.
+_Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdown_tables) to add/remove values from the table_.
 
 
+| Name     | Function          | IP Address             | Operating System |
+|----------|-------------------|------------------------|------------------|
+| Jump Box | Gateway           | 10.0.0.4 103.40.20.158 | Linux            |
+| Web-1    | DWVA Container    | 10.0.0.9               | Linux            |
+| Web-2    | DVWA Container    | 10.0.0.10              | Linux            |
+| Web-3    | DVWA Container    | 10.0.0.12              | Linux            |
+| ELKVM    | ELK/Kibana Server | 10.1.0.4 20.81.40.154  | Linux            |
