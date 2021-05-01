@@ -7,7 +7,7 @@ The files in this repository were used to configure the network depicted below.
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the .yml file may be used to install only certain pieces of it, such as Filebeat.
 
-  - The Ansible-playbooks elk.yml, and the filebeat-playbook.yml are needed to create and implement ELK server.
+  - The Ansible-playbooks elk.yml, and the filebeat-playbook.yml were used to create and implement ELK server.
 
 
 This document contains the following details:
@@ -115,8 +115,7 @@ This ELK server is configured to monitor the following machines:
 - 10.0.0.12
 
 We have installed the following Beats on these machines:
-
-- Specify which Beats you successfully installed
+Specify which Beats you successfully installed
 
  - Filebeats
  - Metricbeats
