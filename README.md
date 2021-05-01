@@ -123,11 +123,66 @@ We have installed the following Beats on these machines:
 
 These Beats allow us to collect the following information from each machine:
 
-- In 1-2 sentences, explain what kind of data each beat collects, and provide 1 example of what you expect to see. E.g., `Winlogbeat` collects Windows logs, which we use to track user logon events, etc._
+- In 1-2 sentences, explain what kind of data each beat collects, and provide 1 example of what you expect to see. E.g., `Winlogbeat` collects Windows logs, which we use to track user logon events, etc
 
  - Filebeat monitors file logs, collects log events, and forwards them for indexing. Example: auditd module collects and parses logs from the audit daemon.
 
  - Metricbeat records metrics and statistics from an operating system and services running on the server. Example: MongoDB module periodically fetches metrics from MongoDB servers. 
+ - 
+
+### Using the Playbook
+
+In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
+
+SSH into the control node and follow the steps below:
+
+- Copy the filebeat.yml to /etc/ansible/files.
+- Update the filebeat-config.yml file to include the name, private IP address of ELK Server, state, and ports.
+- Create and run the filebeat-playbook.yml from /etc/ansible/roles directory and navigate to ELK Server GUI (Kibana) to check that the installation worked as expected.
+
+
+Answer the following questions to fill in the blanks:
+
+- Which file is the playbook? Where do you copy it?
+
+  The playbook file is called filebeat-playbook.yml, copy /etc/filebeat/filebeat.yml.
+
+
+- Which file do you update to make Ansible run the playbook on a specific machine?
+
+  The hosts file. 
+
+- How do I specify which machine to install the ELK server on versus which to install Filebeat on?
+
+  By specifying which host group (webservers/elkservers) the machines belong to.
+
+
+
+- Which URL do you navigate to in order to check that the ELK server is running?
+
+  http://20.81.40.154:56 /app/kibana
+
+
+
+As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc.
+
+•	ssh user@(IP Address)
+•	docker run -ti container/ansible
+•	change directory /etc/ansible
+•	ssh-keygen to your web service
+•	nano hosts (update IP on [webservers] [elkservers]
+•	nano ansible.config to add user 
+•	Create Ansible Playbook (
+•	-name: Example Playbook
+      hosts: webservers
+      become: true
+      tasks:
+          -name: Install (name of the package)
+           apt:
+           force_apt_get: yes
+           name: name of package
+           state: present 
+
 
 
 
