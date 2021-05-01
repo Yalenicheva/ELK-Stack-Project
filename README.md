@@ -2,6 +2,8 @@
 
 The files in this repository were used to configure the network depicted below.
 
+https://github.com/Yalenicheva/ELK-Stack-Project/blob/main/Diagrams/ELK%20Project%20Diagram%20.png
+
 
 ![image](https://user-images.githubusercontent.com/76926788/116769510-581ec480-aa02-11eb-8614-30298374fe7c.png)
 
