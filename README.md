@@ -124,7 +124,7 @@ Specify which Beats you successfully installed
 
 These Beats allow us to collect the following information from each machine:
 
-- In 1-2 sentences, explain what kind of data each beat collects, and provide 1 example of what you expect to see. E.g., `Winlogbeat` collects Windows logs, which we use to track user logon events, etc
+In 1-2 sentences, explain what kind of data each beat collects, and provide 1 example of what you expect to see. E.g., `Winlogbeat` collects Windows logs, which we use to track user logon events, etc
 
  - Filebeat monitors file logs, collects log events, and forwards them for indexing. Example: auditd module collects and parses logs from the audit daemon.
 
