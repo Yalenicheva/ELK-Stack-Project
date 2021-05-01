@@ -99,3 +99,7 @@ The playbook implements the following tasks:
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.  
 
+https://github.com/Yalenicheva/ELK-Stack-Project/blob/main/Images/docker_ps_output.png
+
+
+
