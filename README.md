@@ -104,5 +104,34 @@ https://github.com/Yalenicheva/ELK-Stack-Project/blob/main/Images/docker_ps_outp
 ![image](https://user-images.githubusercontent.com/76926788/116770420-7a681080-aa09-11eb-9172-8165348f50e9.png)
 
 
+### Target Machines & Beats
+
+This ELK server is configured to monitor the following machines:
+
+-  List the IP addresses of the machines you are monitoring
+
+- 10.0.0.9
+- 10.0.0.10
+- 10.0.0.12
+
+We have installed the following Beats on these machines:
+
+- Specify which Beats you successfully installed
+
+ - Filebeats
+ - Metricbeats
+
+These Beats allow us to collect the following information from each machine:
+
+- In 1-2 sentences, explain what kind of data each beat collects, and provide 1 example of what you expect to see. E.g., `Winlogbeat` collects Windows logs, which we use to track user logon events, etc._
+
+ - Filebeat monitors file logs, collects log events, and forwards them for indexing. Example: auditd module collects and parses logs from the audit daemon.
+
+ - Metricbeat records metrics and statistics from an operating system and services running on the server. Example: MongoDB module periodically fetches metrics from MongoDB servers. 
+
+
+
+
+
 
 
