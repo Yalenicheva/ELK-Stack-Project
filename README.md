@@ -101,5 +101,8 @@ The following screenshot displays the result of running `docker ps` after succes
 
 https://github.com/Yalenicheva/ELK-Stack-Project/blob/main/Images/docker_ps_output.png
 
+![image](https://user-images.githubusercontent.com/76926788/116770420-7a681080-aa09-11eb-9172-8165348f50e9.png)
+
+
 
 
