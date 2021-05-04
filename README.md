@@ -154,6 +154,7 @@ For Filebeat:
 -  Download filebeat playbook using curl https://gist.githubusercontent.com/slape/5cc350109583af6cbe577bbcc0710c93/raw/eca603b72586fbe148c11f9c87bf96a63cb25760/Filebeat > /etc/ansible/files/filebeat-config.yml
 - Copy the /etc/ansible/files/filebeat-config.yml to /etc/filebeat/filebeat-playbook.yml
 - Update the filebeat-config.yml file to include the name, private IP address of ELK Server, state, and ports: 
+
   output.elasticsearch:
   hosts: ["10.1.0.4:9200"]
   username: "elastic"
