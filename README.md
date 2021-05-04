@@ -78,7 +78,7 @@ Which machine did you allow to access your ELK VM? What was its IP address?
 |           Web-1                   |           NO                 |           10.0.0.4             |
 |           Web-2                   |           NO                 |           10.0.0.4             |  
 |           Web-3                   |           NO                 |           10.0.0.4             | 
-|           ELKVM                               NO                 |           20.81.40.154         |
+|           ELKVM                   |           NO                 |           20.81.40.154         |
  
  
  
